@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>My Portfolio </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+  <div class="container">
+    <div class="row">
+      <div class="col-4 col-5-large col-12-medium">
+        <span class="image fit"><img src="images/DSC_0738.jpg" alt="Profile picture" width=100% /></span>
+      </div>
+      <div class="col-8 col-7-large col-12-medium">
+        <header>
+          <h1>
+            Hi. I'm <strong class="sparkle">Serphine Amondi✨</strong> 
+          </h1>
+          <h2 class="typewriter"><span>Engineer of intelligent systems</span></h2>
+        </header>
+        <p>Welcome to my portfolio — a glimpse of what I love to create.</p>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    /* Animated gradient background */
+    #top {
+      background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fad390, #a18cd1, #fbc2eb);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #333;
+      padding: 3rem 1rem;
+      border-radius: 12px;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Sparkly gradient text */
+    .sparkle {
+      background: linear-gradient(90deg, #ff7eb3, #ff65a3, #7afcff, #feff9c, #fff740);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: sparkle 4s linear infinite;
+      background-size: 300%;
+    }
+
+    @keyframes sparkle {
+      0% { background-position: 0% }
+      100% { background-position: 100% }
+    }
+
+    /* Typewriter effect */
+    .typewriter {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-top: 0.5rem;
+      color: #222;
+    }
+
+    .typewriter span {
+      border-right: 2px solid #222;
+      padding-right: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      display: inline-block;
+      animation:
+        typing 4s steps(40, end) 1,
+        blink 0.8s step-end infinite alternate;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      from { border-color: transparent }
+      to { border-color: #222 }
+    }
+
+    /* Improve text readability */
+    #top h1, #top h2, #top p {
+      color: #222;
+    }
+  </style>
+</article>
+
+
+	
+		<!-- Portfolio -->
+			<div class="col-4 col-6-medium col-12-small project-card">
+  <style>
+    .project-card article {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover article {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .project-card img {
+      transition: transform 0.3s ease;
+      border-radius: 6px;
+    }
+    .project-card:hover img {
+      transform: scale(1.05);
+    }
+    .project-card h3 a {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s ease;
+    }
+    .project-card:hover h3 a {
+      color: #0077cc; /* highlight color */
+    }
+  </style>
+
+  <article class="box style2" style="background-color: #efebeb; padding: 20px; border-radius: 8px;">
+    <a href="https://github.com/Serphine-Amondi/Remote_Monitoring_Dashboard.git" class="image featured">
+      <img src="images/Web_Dashboard.png" alt="Web dashboard project thumbnail" />
+    </a>
+    <h3><a href="https://github.com/Serphine-Amondi/Remote_Monitoring_Dashboard.git">WEB DASHBOARD</a></h3>
+    <p>This dashboard monitors the activity of a bird repellent system.</p>
+  </article>
+</div>
+
+<div class="col-4 col-6-medium col-12-small project-card">
+  <style>
+    .project-card img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 8px;
+    }
+    .project-card:hover img {
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+    .project-card h3 a {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s ease;
+    }
+    .project-card:hover h3 a {
+      color: #0077cc; /* change link color on hover */
+    }
+  </style>
+
+  <article class="box style2" style="background-color: #efebeb; padding: 20px; border-radius: 8px;">
+    <a href="https://github.com/Serphine-Amondi/Landmark_Classification.git" class="image featured">
+      <img src="images/Landmark_Classification.jpg" alt="Landmark classification project thumbnail" />
+    </a>
+    <h3><a href="https://github.com/Serphine-Amondi/Landmark_Classification.git">LANDMARK CLASSIFICATION</a></h3>
+    <p>Training a CNN to classify famous landmarks</p>
+  </article>
+</div>
+
+<div class="col-4 col-6-medium col-12-small project-card">
+  <style>
+    .project-card article {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover article {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .project-card img {
+      transition: transform 0.3s ease;
+      border-radius: 6px;
+    }
+    .project-card:hover img {
+      transform: scale(1.05);
+    }
+    .project-card h3 a {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s ease;
+    }
+    .project-card:hover h3 a {
+      color: #0077cc; /* link highlight */
+    }
+  </style>
+
+  <article class="box style2" style="background-color: #efebeb; padding: 20px; border-radius: 8px;">
+    <a href="https://github.com/Serphine-Amondi/ML_Workflow.git" class="image featured">
+      <img src="images/Workflow_page-0001.jpg" alt="Machine learning workflow thumbnail" />
+    </a>
+    <h3><a href="https://github.com/Serphine-Amondi/ML_Workflow.git">MACHINE LEARNING WORKFLOW</a></h3>
+    <p>Ornare nulla proin odio consequat.</p>
+  </article>
+</div>
+
+
+					</div>
+				</div>
+			</article>
+
+		<!-- Contact -->
+		 <style>
+  /* Style the icon buttons */
+  .social li a {
+    background-color: #f0f0f0;   /* background for each icon */
+    color: #cc2532;              /* icon color */
+    border-radius: 50%;          /* make them circular */
+    display: inline-flex;        /* keeps icon centered */
+    align-items: center;
+    justify-content: center;
+    width: 45px;                 /* size of icon circle */
+    height: 45px;
+    transition: all 0.3s ease;
+  }
+
+  /* Hover effect */
+  .social li a:hover {
+    background-color: #c49dc7;   /* background turns red */
+    color: #fff;                 /* icon turns white */
+  }
+</style>
+			<article id="contact" class="wrapper style4">
+				<div class="container medium"
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="https://www.linkedin.com/in/serphine-amondi-985a0430a" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:okeyoserphine@gmail.com" class="icon fa-envelope" style="color: #cc2532;"><span class="label">Email</span></a></li>
+								
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Serphine's Portfolio. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
